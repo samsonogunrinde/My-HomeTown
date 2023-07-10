@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#hero {
+    background-image: url("images/Sacred_Grove__Osogbo_Osun_state_lg.jpg");
+    background-size:contain;
+    height: 450px; 
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+}
+.hero-txt{
+    color: white;
+    background: #1D3557;
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px 5px;
+    margin:100px auto 0 auto;
+}
+.hero-txt2{
+    color: white;
+    background: #457B9D;
+    border-radius:5px;
+    width: 320px;
+    padding: 10px 5px;  
+}
+
+#act{
+    background: #F1FAEE;
+    height: 500px;
+    margin-top: -50px;
+    color: #1D3557;
+}
+.act-title{
+padding-top:30px;
+font-size: 25px;
+}
+.act-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    color: #1D3557;
+}
+.act-element{
+width: 200px;
+}
+.act-img{
+ border-radius: 50%; 
+ height: 150px;
+ width: 200px; 
+}
+
+.footer-img{
+    width: 200px;
+    border: 3px solid #1D3557;
+}
+.footer{
+display: flex;
+flex-direction: row;
+width: 400px;
+background: #A8DADC;
+border-radius: 5px;
+text-align:center;
+justify-content:space-around;
+padding:30px;
+border-bottom:10px solid black;
+margin-top: 40px;
+margin-left: auto;
+margin-right: auto;
+color: #1D3557;
+}
+
